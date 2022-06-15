@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* GENERALS */
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* TIMER */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 640px;
+    margin: 200px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 20px rgba(63, 60, 63, 0.39);
+}
+
+button {
+    font-size: 15px;
+    font-family:'Open sans', sans-serif;
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    border-width: 1px;
+    color:#fff;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 28px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.init {
+    background-color: rgb(25, 182, 25);
+    transition: all 0.3s;
+}
+
+.init:hover {
+    border: 3px solid rgb(25, 182, 25);
+    background-color: transparent;
+    color: rgb(25, 182, 25);
+}
+
+.pause {
+    background-color: rgb(125, 125, 125);
+    transition: all 0.3s;
+}
+
+.pause:hover {
+    border: 3px solid rgb(125, 125, 125);
+    background-color: transparent;
+    color: rgb(125, 125, 125);
+}
+
+.reset {
+    background-color: rgb(255, 0, 0);
+    transition: all 0.3s;
+}
+
+.reset:hover {
+    border: 3px solid rgb(255, 0, 0);
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+}
+
+.timer {
+    font-size: 3em;
+}
+
+.started {
+    color: rgb(25, 182, 25);
+}
+
+.paused {
+    color: rgb(255, 0, 0);
+}
