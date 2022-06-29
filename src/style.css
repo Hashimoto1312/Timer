@@ -84,12 +84,8 @@ button:hover {
     color: rgb(255, 0, 0);
 }
 
-.timer {
+#timer {
     font-size: 3em;
-}
-
-.started {
-    color: rgb(25, 182, 25);
 }
 
 .paused {
